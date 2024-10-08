@@ -1,0 +1,66 @@
+body{
+    background-image: url("https://img.freepik.com/fotos-premium/fondo-tecnologia-abstracta-codigo-programacion-desarrollador-software-secuencia-comandos-computadora_629685-2532.jpg");
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: white;
+}
+img{
+    width: 30px;
+}
+img.estudios{
+    width: 500px;
+}
+
+.Container{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 40% 30% 30%;
+    grid-template-areas:
+        "izda dcha"
+        "izda dcha"
+        "izda dcha";
+      align-items: stretch;
+      column-gap: 30px;
+      row-gap: 10px;
+      margin: 50px;
+      padding: 30px;
+      background-color: rgba(254, 249, 249, 0.778);
+}
+
+.Left{
+    text-align: center;
+    grid-area: izda;
+    padding: 30px;
+}
+
+.Right{
+
+    grid-area: dcha;
+    padding: 30px;
+}
+
+.Idiomas{
+    display: flex;
+    margin: 30px;
+    padding: 30px;
+    padding-left: 310px;
+    align-items: stretch;
+    text-align: center;
+    
+}
+h2{
+    text-align: center;
+}
+
+p,#Estudios{
+    text-align: center;
+}
+
+#Experiencia ul{
+    text-align: center;
+    padding-left: 100px;
+}
+
+
